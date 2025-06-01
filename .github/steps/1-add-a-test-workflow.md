@@ -39,7 +39,7 @@ npm install remark-cli remark-preset-lint-consistent
 npx remark . --use remark-preset-lint-consistent --frail
 ```
 > `ci.yml` でコードが適切にインデントされているにもかかわらず、GitHub Actions でビルドエラーが表示されます。これは次のステップで修正します。
-1. **「Commit changes...」** をクリックし、`ci` という名前の新しいブランチを作成します。
-2. **「Propose changes」** をクリックします。
-3.  **「Create pull request」** をクリックします。
-4.  約 20 秒待ってから、このページ（手順を実行しているページ）を更新します。[GitHub Actions](https://docs.github.com/actions) が自動的に次のステップに更新されます。
+8. **「Commit changes...」** をクリックし、`ci` という名前の新しいブランチを作成します。
+9. **「Propose changes」** をクリックします。
+10.  **「Create pull request」** をクリックします。
+11.  約 20 秒待ってから、このページ（手順を実行しているページ）を更新します。[GitHub Actions](https://docs.github.com/actions) が自動的に次のステップに更新されます。
